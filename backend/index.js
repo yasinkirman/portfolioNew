@@ -11,7 +11,12 @@ import path from "path";
 
 dotenv.config();
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: ["https://yasinkirman.vercel.app/"], // senin vercel domainin
+    methods: ["GET", "POST", "PUT", "DELETE"],
+  })
+);
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
