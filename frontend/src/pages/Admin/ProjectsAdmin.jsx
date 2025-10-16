@@ -38,7 +38,7 @@ export default function ProjectsAdmin({ token }) {
     severity: "success",
   });
 
-  const API_URL = "http://localhost:5000/api/projects";
+  const API_URL = "https://portfolionew-zx2z.onrender.com/api/projects";
 
   const fetchProjects = useCallback(async () => {
     if (!token) return;

@@ -32,7 +32,7 @@ export default function SkillsAdmin({ token }) {
     severity: "success",
   });
 
-  const API_URL = "http://localhost:5000/api/skills";
+  const API_URL = "https://portfolionew-zx2z.onrender.com/api/skills";
 
   // 🔹 fetchSkills fonksiyonunu useCallback ile tanımla
   const fetchSkills = useCallback(async () => {

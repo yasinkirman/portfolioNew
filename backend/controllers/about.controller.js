@@ -19,7 +19,7 @@ export const editAbout = async (req, res) => {
 
     // Eğer multer ile dosya yüklenmişse
     if (req.file) {
-      avatar = `http://localhost:5000/uploads/${req.file.filename}`;
+      avatar = `https://portfolionew-zx2z.onrender.com/uploads/${req.file.filename}`;
     }
 
     const about = await aboutService.updateAbout(req.params.id, {

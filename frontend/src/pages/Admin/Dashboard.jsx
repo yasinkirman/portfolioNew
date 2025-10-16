@@ -8,7 +8,7 @@ export default function Dashboard({ token }) {
     projects: 0,
   });
 
-  const API_URL = "http://localhost:5000/api";
+  const API_URL = "https://portfolionew-zx2z.onrender.com/api";
 
   useEffect(() => {
     if (!token) {

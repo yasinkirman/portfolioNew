@@ -38,7 +38,7 @@ export default function ExperiencesAdmin({ token }) {
     severity: "success",
   });
 
-  const API_URL = "http://localhost:5000/api/experiences";
+  const API_URL = "https://portfolionew-zx2z.onrender.com/api/experiences";
 
   const fetchExperiences = useCallback(async () => {
     if (!token) return;

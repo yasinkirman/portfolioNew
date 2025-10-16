@@ -29,7 +29,7 @@ export default function AboutAdmin({ token }) {
     severity: "success",
   });
 
-  const API_URL = "http://localhost:5000/api/about";
+  const API_URL = "https://portfolionew-zx2z.onrender.com/api/about";
 
   const fetchAbout = useCallback(async () => {
     if (!token) return;
