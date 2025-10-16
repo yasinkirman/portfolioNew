@@ -29,7 +29,7 @@ export default function About() {
         {/* Sol: Fotoğraf */}
         <Grid item xs={12} md={6}>
           <Avatar
-            src={about.avatar}
+            src={"/yasin_kirman.JPG"}
             alt={about.name}
             sx={{
               width: 220,

@@ -45,8 +45,8 @@ export default function AboutAdmin({ token }) {
         setForm({
           name: data[0].name,
           title: data[0].title,
-          avatar: null,
-          avatarPreview: data[0].avatar,
+          avatar: "/yasin_kirman.JPG",
+          avatarPreview: "/yasin_kirman.JPG",
           description: data[0].description || [],
         });
       }
