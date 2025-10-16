@@ -13,7 +13,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: ["https://yasinkirman.vercel.app/"], // senin vercel domainin
+    origin: ["https://yasinkirman.vercel.app"], // senin vercel domainin
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
