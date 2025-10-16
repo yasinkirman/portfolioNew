@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+  color: #1a237e;
+}
+
+.about-section {
+  background: linear-gradient(135deg, #1976d2, #64b5f6);
+  padding-top: 8%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+  display: block;
+}
+
+.skills-section {
+  display: block;
+  padding-top: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
+
+.experiences-section {
+  background: linear-gradient(135deg, #1976d2, #64b5f6);
+  display: block;
+  padding-top: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
+
+.projects-section {
+  display: block;
+  padding-top: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
