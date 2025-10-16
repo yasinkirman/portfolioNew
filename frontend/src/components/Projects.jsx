@@ -7,7 +7,7 @@ export default function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("/api/projects")
+    fetch("https://portfolionew-zx2z.onrender.com/api/projects")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);

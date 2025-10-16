@@ -6,7 +6,7 @@ export default function About() {
   const [about, setAbout] = useState(null);
 
   useEffect(() => {
-    fetch("/api/about")
+    fetch("https://portfolionew-zx2z.onrender.com/api/about")
       .then((res) => res.json())
       .then((data) => setAbout(data[0]));
   }, []);

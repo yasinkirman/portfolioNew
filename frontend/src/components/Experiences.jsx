@@ -7,7 +7,7 @@ export default function Experiences() {
   const [experiences, setExperiences] = useState([]);
 
   useEffect(() => {
-    fetch("/api/experiences")
+    fetch("https://portfolionew-zx2z.onrender.com/api/experiences")
       .then((res) => res.json())
       .then((data) => setExperiences(data));
   }, []);

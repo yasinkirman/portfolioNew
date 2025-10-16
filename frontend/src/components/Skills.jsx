@@ -7,7 +7,7 @@ export default function Skills() {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    fetch("/api/skills")
+    fetch("https://portfolionew-zx2z.onrender.com/api/skills")
       .then((res) => res.json())
       .then((data) => setSkills(data));
   }, []);
