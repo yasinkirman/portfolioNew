@@ -2,7 +2,10 @@ import { Box, Typography, Chip, LinearProgress, Paper } from "@mui/material";
 
 export default function SkillCard({ skill }) {
   return (
-    <Paper elevation={6} sx={{ p: 4, borderRadius: 3, width: "100%" }}>
+    <Paper
+      elevation={6}
+      sx={{ p: 4, borderRadius: 3, width: "250px", boxSizing: "border-box" }}
+    >
       <Box display="flex" justifyContent="space-between" mb={1}>
         <Chip label={skill.name} color="primary" />
         <Typography variant="body2" color="text.secondary">
